@@ -1,0 +1,28 @@
+{
+  "name": "api-studio-server",
+  "version": "1.0.0",
+  "description": "Node-based studio for the api-studio frontend project, utilizing the GraphQL API library",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gperanich/api-studio-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gperanich/api-studio-server/issues"
+  },
+  "homepage": "https://github.com/gperanich/api-studio-server#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.7",
+    "graphql": "^0.10.5",
+    "graphql-fields": "^1.0.2",
+    "graphql-server-express": "^1.1.2"
+  }
+}
